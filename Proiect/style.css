@@ -1,0 +1,248 @@
+@font-face { font-family: DinoPlay; src: url('DinoPlay.ttf'); }
+@font-face { font-family: FrozenGnome; src: url('Frozen Gnome - Personal Use.otf'); }
+@font-face { font-family: Naomi; src: url('DEMO_Naomi Story Regular.ttf'); }
+@font-face { font-family: Neo; src: url('Neo Illustrator.ttf'); }
+@font-face { font-family: Coffee; src: url('Take Coffee.ttf'); }
+@font-face { font-family: Aloha; src: url('Sweet Aloha.ttf'); }
+@font-face { font-family: Cartoon; src: url('Cartoon Queen.ttf'); }
+@font-face { font-family: Silver; src: url('Silver Smile.ttf'); }
+@font-face { font-family: Woman; src: url('Woman.ttf'); }
+
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+body {
+    background-image: url("imgonline-com-ua-resize-LkP2oAB9exIfR.jpg");
+    background-repeat: repeat;
+  }
+
+ div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 350px;
+    display: center;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 350px;
+    height: 350px;
+  }
+  
+  div.desc {
+    padding: 10px;
+    text-align: center;
+    font-family: Cartoon;
+    font-size: 120%;
+    background-color: #A0D6B4;
+    width:auto;
+    align-self: center;
+  }
+
+
+img.logo{
+  height: 25%;
+  width: 50%;
+  
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #B09FCA;
+}
+
+.navbar a {
+  float: left;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 25px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #7F525D;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #C8A2C8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+  font#menu{
+    font-family: Coffee;
+    font-size: 25px;
+    color:black
+
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B09FCA;
+  }
+  
+  li {
+    float: left;
+    border: 2px white solid;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: pink;
+  }
+ 
+
+
+div#sayhipuppies{
+    font-family: Aloha;
+    font-size: 60px;
+    background-color: #DBE9FA;
+    height: auto;
+    width: auto;
+
+  }
+
+font#normal{
+  font-family: Naomi;
+  font-size: 40px;
+}
+
+div#sayhikittens{
+  font-family: Aloha;
+    font-size: 60px;
+    background-color: #DBE9FA;
+    height: auto;
+    width: auto;
+
+}
+
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;  
+  align-content:center;
+  align-items:center;
+ 
+}
+
+.container>div{
+  width: 25%;
+  height: auto;
+  text-align: center;
+  margin-bottom:3px;
+  line-height:20px;
+  margin-top:1px;
+  align-content:center;
+
+}
+
+img#fleximg{
+  width: 75%;
+  height: 60%;
+}
+
+section#aboutus{
+  font-family: Naomi;
+  font-size: 30px;
+  background-color: #F7E7CE;
+  height: auto;
+  width: auto;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
+font.subtitlu1{
+  font-family: Aloha;
+  font-size: 50px;
+}
+
+section#adopt{
+  font-family: Naomi;
+  font-size: 27px;
+  background-color: #F7E7CE;
+  height: auto;
+  width: auto;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
+font.subtitlu{
+  font-family: Aloha;
+  font-size: 30px;
+  color: #F2BB66;
+  
+  }
+
+
+
+
+
+
+
