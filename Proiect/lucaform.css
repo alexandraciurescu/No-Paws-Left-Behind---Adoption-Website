@@ -1,0 +1,107 @@
+@font-face { font-family: DinoPlay; src: url('DinoPlay.ttf'); }
+@font-face { font-family: FrozenGnome; src: url('Frozen Gnome - Personal Use.otf'); }
+@font-face { font-family: Naomi; src: url('DEMO_Naomi Story Regular.ttf'); }
+@font-face { font-family: Neo; src: url('Neo Illustrator.ttf'); }
+@font-face { font-family: Aloha; src: url('Sweet Aloha.ttf'); }
+@font-face { font-family: Cartoon; src: url('Cartoon Queen.ttf'); }
+@font-face { font-family: Silver; src: url('Silver Smile.ttf'); }
+@font-face { font-family: Woman; src: url('Woman.ttf'); }
+
+
+  body {
+    /*background-image: url("back5.webp");
+    background-repeat: repeat;*/
+    background-color: #98AFC7;
+  }    
+
+  h1{
+    font-family: Cartoon; 
+    font-size: 4em;
+    color: #2B547E;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input#reasonadopt {
+    width: 250px;
+  }
+
+  input {
+    height: 25px;
+  }
+
+
+ul li {
+    margin-bottom: 10px;
+  }
+
+
+
+form{
+    font-size: 50px;
+    font-family: Neo ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+label {
+    display: inline-block; /* face eticheta sa ocupe aceeasi linie cu inputul */
+    vertical-align: middle; /* aliniaza vertical inputul si eticheta */
+    margin-right: 10px; /* spatiul dintre eticheta si input */
+  }
+  
+  input {
+    display: inline-block; /* face inputul sa ocupe aceeasi linie cu eticheta */
+  }
+
+  /*
+  ul li ::before{
+    content:"🐾";
+}
+*/
+
+.container {
+  position: relative;
+}
+
+.container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+p{
+  font-size: 50px;
+  font-family: Neo ;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#submit{
+  background-color: #1c87c9;
+  -webkit-border-radius: 3em;
+  border-radius: 3em;
+  border: none;
+  color: #eeeeee;
+  cursor: pointer;
+  display: inline-block;
+  font-family: DinoPlay;
+  font-size: 0.8em;
+  padding: 0.3125em 0.93em;
+  text-align: center;
+  text-decoration: none;
+  
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+    <script type="text/javascript" src="lucaform.js"></script>
+
+    <link rel="stylesheet" href="lucaform.css">
+
+
+    <title> Adoption form </title>
+</head>
+
+<body>
+    <h1> Adoption form</h1>
+    <hr> 
+    <div id="formular">
+    <form action="lucaformdate.html" method="post" id="formularid">
+    <ul type="circle">
+        <li>
+        <label for="name">Pet's name: </label>
+        <input type="text" id="name" pattern="[A-Za-z]{1,20}" value="Luca" autocomplete="on">
+        </li>
+        <li>
+            <label for="petdog">Is your new friend a cat or a dog?</label><br>
+            <input type="radio" name="pet" id="petdog" value="cat">
+            <label for="petcat">Cat</label> <br>
+            <input type="radio" name="pet" id="petcat" value="dog">
+            <label for="petdog">Dog</label>
+        </li>
+        <li>
+            <label for="persname">Your name: </label>
+            <input type="text" id="persname" required pattern="[A-Za-z]{1,30}">
+        </li>
+        <li>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" required>
+        </li>
+        <li>
+            <label for="birth_date">Birth date: </label> 
+            <input type="date" id="birth_date" required>
+        </li>
+        <li>
+            <label for="reasonadopt"> Why do you want to adopt? </label>
+            <input type="text" id="reasonadopt" required pattern="[A-Z a-z0-9]{1,30}">
+        </li>
+    
+    </ul>
+    <button type="submit" id="submit"> Submit </button>
+    </form>
+</div>
+</body>

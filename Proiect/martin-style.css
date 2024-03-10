@@ -1,0 +1,193 @@
+@font-face { font-family: DinoPlay; src: url('DinoPlay.ttf'); }
+@font-face { font-family: FrozenGnome; src: url('Frozen Gnome - Personal Use.otf'); }
+@font-face { font-family: Naomi; src: url('DEMO_Naomi Story Regular.ttf'); }
+@font-face { font-family: Neo; src: url('Neo Illustrator.ttf'); }
+@font-face { font-family: Aloha; src: url('Sweet Aloha.ttf'); }
+@font-face { font-family: Cartoon; src: url('Cartoon Queen.ttf'); }
+@font-face { font-family: Silver; src: url('Silver Smile.ttf'); }
+@font-face { font-family: Woman; src: url('Woman.ttf'); }
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+body {
+    background-image: url("back6.jpg");
+    background-repeat: repeat;
+  }
+
+
+div#meet{
+    font-family: DinoPlay; 
+    font-size: 4.5em;
+    
+}
+
+ul#caract{
+    background-color: #DCD0FF;
+    width: 28em;
+    border: 0.93em solid;
+    padding: 3.125em;
+    margin: 1.25em;
+    list-style-type: none;
+    align-content: center;
+
+}
+
+p#caracteristici{
+    font-family: Naomi;
+    font-size: 1.875em;
+    align-self: justify;
+    align-content: justify;
+}
+
+p#caracteristici ::before{
+     content:"✔️";
+}
+
+font#caps{
+  font-family:Neo;
+}
+
+div#twoboxes {
+    float: left;
+    width: 3.125em; 
+    padding: 10%; 
+
+}
+
+div#text{
+    background-color: #C3FDB8;
+    width: 55em;
+    height: 45em;
+    border: 0.93em solid;
+    padding: 3.125em;
+    margin: 1.25em;
+    list-style-type: none;
+}
+
+div.column {
+    float: left;
+    width: auto;
+    padding: 0.625em;
+  }
+  
+  
+  div.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+div#poze{
+    background-color: #FFE5B4;
+    width: 87em;
+    height: 32em;
+    border: 0.93em solid;
+    list-style-type: none;
+    margin:auto;
+
+    padding:1em;
+}
+
+img#margine{
+    margin: 1.25em;
+}
+
+img#pozacartoon{
+    margin: 2em;
+    margin-right: 4em;
+    margin-left: 4em;
+    margin-top: 1.25em;
+    transform:rotate(-20deg);
+   
+}
+
+img#aparat{
+    transform:rotate(-20deg);
+    margin-right: 4em;
+    margin-top: 1.25em;
+    margin-left: 4em;
+}
+
+.button {
+    background-color: #1c87c9;
+    -webkit-border-radius: 5em;
+    border-radius: 5em;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: DinoPlay;
+    font-size: 2.4em;
+    padding: 0.3125em 0.93em;
+    text-align: center;
+    text-decoration: none;
+    position:absolute;
+    right:3em;
+    top:1em;
+  }
+  @keyframes glowing {
+    0% {
+      background-color: #2ba805;
+      box-shadow: 0 0 5px #2ba805;
+    }
+    50% {
+      background-color: #49e819;
+      box-shadow: 0 0 1.25em #49e819;
+    }
+    100% {
+      background-color: #2ba805;
+      box-shadow: 0 0 5px #2ba805;
+    }
+  }
+  .button {
+    animation: glowing;
+    animation-iteration-count:infinite;
+    animation-duration:1300ms;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2em;
+  }
+
+  .grid-item{
+    text-align:justify;
+    right:20%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grid-item1{
+    text-align:justify;
+    grid-column:1/3;
+  }
+
+  
+* {
+  box-sizing: border-box;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
+  
